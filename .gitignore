@@ -1,0 +1,19 @@
+# .NET build artifacts
+bin/
+obj/
+
+# Visual Studio files
+*.csproj.user
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+# Generated language files (optional, include if you want users to generate them)
+language/english.json
+language/t-chinese.json
+
+# macOS
+.DS_Store

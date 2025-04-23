@@ -1,0 +1,44 @@
+{
+// 100Bible Plugin Configuration
+// This file configures the 100Bible plugin for CounterStrikeSharp.
+// Ensure all fields are correctly set to avoid errors.
+// WARNING: JSON does not support comments. Remove all comments (// lines) before saving, or the config may fail to load.
+
+// BroadcastInterval: Time (in seconds) between message broadcasts.
+// - Must be a positive integer (e.g., 30 for every 30 seconds).
+// - Default: 30
+"BroadcastInterval": 30,
+
+// RandomMode: How messages are selected for broadcast.
+// - "Sequential": Messages are shown in order (ID 1, 2, 3, ...).
+// - "FullRandom": Randomly selects any message, may repeat.
+// - "ShuffleRandom": Shuffles all messages, cycles through once, then reshuffles.
+// - Default: "Sequential"
+"RandomMode": "Sequential",
+
+// LanguageFile: The language file to use for messages (located in plugins/100Bible/language/).
+// - Must be a valid .json file (e.g., "english.json", "t-chinese.json").
+// - Default: "english.json"
+"LanguageFile": "english.json",
+
+// BroadcastMode: Determines who receives messages.
+// - "public": All players see messages in chat.
+// - "private": Only subscribed players (via !100bible command) see messages.
+// - Default: "public"
+"BroadcastMode": "public",
+
+// MessageGroups: Filters messages by ID range.
+// - Use format "start-end" or "start,end" (e.g., "5-10" or "5,10" for messages ID 5 to 10).
+// - Empty array ([]) includes all messages if no TextSearches are specified.
+// - Example: ["1-10", "20-30"] broadcasts messages with IDs 1-10 and 20-30.
+// - Default: []
+"MessageGroups": [],
+
+// TextSearches: Filters messages by text content.
+// - Use a word (e.g., "John" to match messages containing "John", like John 3:16).
+// - Empty array ([]) includes all messages if no MessageGroups are specified.
+// - Example: ["John", "Psalm"] broadcasts messages containing "John" or "Psalm".
+// - Default: []
+"TextSearches": []
+
+}
