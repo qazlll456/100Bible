@@ -4,6 +4,13 @@ git clone https://github.com/yourusername/100Bible.git
 
 A CounterStrikeSharp plugin that broadcasts Bible verses in-game, supporting multiple languages, configurable message filters, and broadcast modes.
 
+## Donate
+If you enjoy it and find it helpful, consider donating to me! Every bit helps me keep developing.
+Money, Steam games, or any valuable contribution is welcome.
+- **Ko-fi**: [Support on Ko-fi](https://ko-fi.com/qazlll456)
+- **Patreon**: [Become a Patron](https://www.patreon.com/c/qazlll456)
+- **Streamlabs**: [Tip via Streamlabs](https://streamlabs.com/BKCqazlll456/tip)
+
 ## Features
 
 - Broadcasts 100 Bible verses in English and Traditional Chinese with customizable intervals.
